@@ -1,10 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Nosotras Investigamos – Galería</title>
+  <title>Nosotras Investigamos</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
   <!-- <link rel='shortcut icon''image/svg+xml' href='/images/icon.png' /> -->
 
   <!-- Mosaic + modal CSS -->
@@ -91,22 +93,24 @@
   </style>
 </head>
 
-<body class="is-preload">
+<body class="is-preload landing">
 
 
+<!-- Header -->
 <header id="header">
-  <h1 id="logo"><a href="index.html">Nosotras Investigamos</a></h1>
-  <nav id="nav">
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="programa.html">Programa</a></li>
-      <li><a href="ponentes.html">Ponentes</a></li>
-      <li><a href="quienes-somos.html">Quienes somos</a></li>
-      <li><a href="inscripcion.html">Inscripción</a></li>
-      <li><a href="lugar-plan-acceso.html">Lugar y plan de acceso</a></li>
-      <li><a href="contact.html" class="button primary">Contacto</a></li>
-    </ul>
-  </nav>
+    <h1 id="logo"><a href="index.html"><i>Nosotras Investigamos</i></a></h1>
+        <nav id="nav">
+         <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="programa.html">Programa</a></li>
+          <li><a href="ponentes.html">Ponentes</a></li>
+          <li><a href="bio.html">Quienes somos</a></li>
+          <!-- Opens in a new tab -->
+          <li><a href="https://forms.gle/KfBtvbPLUdY7W2du6" target="_blank" rel="noopener noreferrer">Inscripción</a></li>
+          <li><a href="lugar.html">Lugar y plan de acceso</a></li>
+          <li><a href="contact.html" class="button primary">Contacto</a></li>
+         </ul>
+       </nav>
 </header>
 
 
@@ -119,61 +123,56 @@
 
     <div class="mosaic">
 
-      <!-- 7 -->
+      <!-- 1-->
       <div class="mosaic-item"
         onclick="openModal(
           'images/photo3.jpg',
-          'Investigadora 3',
+          'Patricia Segura',
           'Descripción de la investigadora 3.'
         )">
-        <img src="images/photo3.jpg" alt="">
-        <h3>Investigadora 3</h3>
+        <img src="images/Patricia_Segura.jpg" alt="">
+        <h3>Patricia Segura</h3>
       </div>
-
-      <!-- 4 (second row, left-aligned automatically) -->
-      <div class="mosaic-item"
-        onclick="openModal(
-          'images/photo4.jpg',
-          'Investigadora 4',
-          'Descripción de la investigadora 4.'
-        )">
-        <img src="images/photo4.jpg" alt="">
-        <h3>Investigadora 4</h3>
-      </div>
-      
 
       <!-- 2 -->
       <div class="mosaic-item"
         onclick="openModal(
-          'images/photo2.jpg',
-          'Investigadora 2',
-          'Descripción de la investigadora 2.'
+          'images/photo4.jpg',
+          'Andrea Fuentes',
+          'Siempre he sido una persona observadora y con una curiosidad constante por comprender cómo funcionan los sistemas. Estudié Biología en la Universidad de Sevilla (2014–2019) y, durante mi último año, obtuve una beca estudiar en la Universidad de Los Lagos (Chile), donde realicé mis primeras experiencias en investigación analizando la diversidad genética de un cérvido endémico en peligro de extinción. Desde 2019 formo parte del grupo de investigación de Neurotransmisión y Sinaptopatologías de la Universidad de Sevilla, dirigido por la Prof. Lucía Tabares, donde me inicié en la electrofisiología y en el estudio de la Atrofia Muscular Espinal (AME), una enfermedad monogenética y neurodegenerativa. En este contexto desarrollé mi trabajo de fin de máster, que demostró que un modulador de canales de calcio mejora la neurotransmisión en modelos murinos de AME, resultados que fueron reconocidos con un Premio del Certamen Nacional Arquímedes. Actualmente investigo los efectos del supresor genético Hspa8G470R sobre la neurotransmisión y la fisiopatología asociada en distintos modelos de AME. Desarrollo este trabajo en el marco de un contrato FPU, que además me ha permitido descubrir y consolidar mi vocación por la docencia.'
         )">
-        <img src="images/photo2.jpg" alt="">
-        <h3>Investigadora 2</h3>
+        <img src="images/Andrea_Fuentes.jpg" alt="">
+        <h3>Andrea Fuentes</h3>
       </div>
+      
 
       <!-- 3 -->
       <div class="mosaic-item"
         onclick="openModal(
-          'images/photo3.jpg',
-          'Investigadora 3',
-          'Descripción de la investigadora 3.'
+          'images/photo2.jpg',
+          'Chloé Gomez',
+          'Fascinada desde pequeña por los misterios del cerebro, decidí formarme en las tecnologías que permiten revelarlo, en particular la neuroimagen. Mi trayectoria científica se centra en el desarrollo de métodos de IA combinados con neuroimagen para comprender mejor los mecanismos biológicos de los trastornos de la conciencia y, más recientemente, de los trastornos psiquiátricos. Obtuve el título de ingeniera en imagen biomédica en 2019 en Francia, me especialicé en inteligencia artificial y neuroimagen durante mi proyecto de fin de grado en Valparaíso (Chile), y posteriormente realicé mi doctorado en París. Ahi, mi proyecto se centró en el modelado de la dinámica cerebral y su relación con los estados de conciencia. En septiembre de 2024 me incorporé al Neuroimaging & Brain Networks Lab de la US, donde se investigan los cambios en la organización cerebral asociados a trastornos psiquiátricos y del neurodesarrollo. Más allá de la investigación, valoro especialmente la docencia, la divulgación y la mentoría, habiendo tenido yo misma la oportunidad durante mi tesis de estar acompañada de una mentora gracias al programa Femmes & Sciences.'
         )">
-        <img src="images/photo3.jpg" alt="">
-        <h3>Investigadora 3</h3>
+        <img src="images/Chloe_Gomez.jpg" alt="">
+        <h3>Chloé Gomez</h3>
       </div>
 
-      <!-- 4 (second row, left-aligned automatically) -->
+      <!-- 4 -->
       <div class="mosaic-item"
-        onclick="openModal(
-          'images/photo4.jpg',
-          'Investigadora 4',
-          'Descripción de la investigadora 4.'
-        )">
-        <img src="images/photo4.jpg" alt="">
-        <h3>Investigadora 4</h3>
+        <h2>  </h2>
       </div>
+      
+    <!-- 4 -->
+    <div class="mosaic-item"
+      onclick="openModal(
+        'images/photo3.jpg',
+        'María Luz Montesinos',
+        'María Luz es Profesora Titular Catedrática de Universidad en la US, con más de 30 años de trayectoria investigadora. Ha liderado 20 proyectos de investigación nacionales e internacionales y sus publicaciones acumulan más de 1.200 citas, reflejo de contribuciones relevantes en biología molecular y neurociencia. Tras doctorarse en biología molecular de cianobacterias, orientó su carrera hacia el estudio del desarrollo del sistema nervioso de vertebrados. Durante su etapa postdoctoral en la École Normale Supérieure de París identificó genes y cofactores regulados por homeoproteínas, publicando en revistas de alto impacto. Posteriormente, como investigadora Ramón y Cajal y profesora de la Universidad de Sevilla, dirigió durante 18 años el Laboratorio de Traducción Local Sináptica (US-IBiS), pionero en el estudio de la traducción local sináptica en plasticidad y memoria, especialmente en el síndrome de Down. En la actualidad impulsa una nueva línea interdisciplinar centrada en el estudio de las emociones evocadas por la música electrónica y la realidad virtual mediante EEG, manteniendo como eje central la comprensión integradora del cerebro desde múltiples perspectivas.'
+      )">
+      <img src="images/MariaLuz_Montesinos_crop.jpg" alt="">
+      <h3>María Luz Montesinos</h3>
+    </div>
+
 
     </div>
   </div>
@@ -190,11 +189,15 @@
 </div>
 
 
+<!-- Footer -->
 <footer id="footer">
-  <ul class="copyright">
-    <li>&copy; Nosotras Investigamos</li>
-    <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-  </ul>
+    <ul class="icons">
+		<li><a href="https://github.com/nosotrasinvestigamos" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+		<li><a href="mailto:jornadasneurocientificas@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+	</ul>
+	<ul class="copyright">
+		<li>&copy; Created with 🤍 by NosotrasInvestigamos </li><li><a href="http://html5up.net">HTML5 UP</a></li>
+	</ul>
 </footer>
 
 <script src="assets/js/jquery.min.js"></script>

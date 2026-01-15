@@ -96,6 +96,7 @@ input, select, textarea {
 		-ms-transition: none !important;
 		transition: none !important;
 	}
+	
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
@@ -4221,7 +4222,7 @@ input, select, textarea {
 }
 
 .contact-info a {
-  color: #007acc;
+  color: #9a63b6;
   text-decoration: none;
 }
 
