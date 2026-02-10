@@ -4271,5 +4271,25 @@ input, select, textarea {
 }
 
 
+.logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.logo-link:hover {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+
+.logo-img {
+  max-width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+
 
 
