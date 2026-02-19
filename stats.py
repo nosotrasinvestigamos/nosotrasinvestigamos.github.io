@@ -76,6 +76,14 @@ plt.axis('equal')
 plt.tight_layout()
 
 # %%
+
+# =============================================================================
+# # Para el resto vamos a illustrar solo los que asistieron
+# =============================================================================
+filtro_asistentes = df["Asistencia a las jornadas"].str.contains("Si", na=False)
+df_asistentes = df[filtro_asistentes].copy()
+df = df_asistentes
+print(f"Número de personas que asistieron: {len(df_asistentes)}")
 # ====== 2. Sexo ======
 # Note : We hadn't recorded the information; it's incomplete based on the first name, so there may be biases.
 
@@ -118,15 +126,6 @@ plt.title(f"Reparticion por sexo\nTotal inscritos: {len(df)}")
 plt.axis('equal')
 plt.tight_layout()
 #%%
-# =============================================================================
-# # Para el resto vamos a illustrar solo los que asistieron
-# =============================================================================
-filtro_asistentes = df["Asistencia a las jornadas"].str.contains("Si", na=False)
-df_asistentes = df[filtro_asistentes].copy()
-df = df_asistentes
-print(f"Número de personas que asistieron: {len(df_asistentes)}")
-
-
 # ====== 3. Puesto / Etapa profesional ======
 # limpio (lo siento abuela de la ponente)
 
